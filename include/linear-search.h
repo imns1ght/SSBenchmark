@@ -13,6 +13,6 @@ using namespace std;
  * \param value The target value we are looking for within the range.
  * \return A pointer to the target value within the range; or last, in case the value is not in the range.
  */
-const int * lsearch(const int *first, const int *last, int value);
+const long * lsearch(const long *first, const long *last, long value);
 
 #endif

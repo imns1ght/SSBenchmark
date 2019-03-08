@@ -1,6 +1,6 @@
 #include "../include/binary-search.h"
 
-const int * bsearch(const int *first, const int *last, int value)
+const long * bsearch(const long *first, const long *last, long value)
 {
 	auto distance = std::distance(first, last); /* Current length */
 
