@@ -8,9 +8,8 @@
 #include "../include/linear-search.h"
 #include "../include/binary-search.h"
 
-int main(void)
-{
-
+int main(void){
+	
 
 	return 0;
 }
