@@ -14,5 +14,4 @@
 
 const long int *jumpsearch(const int *first, const int *last, int value);
 
-
 #endif
