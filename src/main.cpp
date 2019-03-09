@@ -7,8 +7,10 @@
 
 #include "../include/linear-search.h"
 #include "../include/binary-search.h"
+#include "../include/ternary-search.h"
 
-#define LIMIT 50000000
+#define LIMIT 500000000
+#define SEARCH 2500
 
 int main(void) {
 	long * array = new long [LIMIT];
@@ -17,7 +19,7 @@ int main(void) {
 		array[i] = i;
 	}
 
-	auto result = const_cast <long *>(bsearch(array, (array + LIMIT - 1), LIMIT));
+	auto result = const_cast <long *>(tsearch(array, (array + LIMIT - 1), SEARCH));
 
 	cout << *result;
 
