@@ -20,6 +20,7 @@ const long * bsearch(const long *first, const long *last, long value) {
 	return last; // If the value is not found 
 }
 
+
 const long * bsearch_recursive(const long *first, const long *last, long value) {
 	auto distance = std::distance(first, last); // Current length
 

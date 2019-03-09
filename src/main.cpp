@@ -12,7 +12,7 @@
 #include <chrono>     
 
 #define LIMIT 500000000
-#define SEARCH 374456000
+#define SEARCH 333333315
 
 using namespace std::chrono; 
 
@@ -31,6 +31,7 @@ int main(void) {
 	//auto result = const_cast <long *>(bsearch_recursive(array, (array + LIMIT - 1), SEARCH));
 	//auto result = const_cast <long *>(tsearch(array, (array + LIMIT - 1), SEARCH));
 	auto result = const_cast <long *>(jsearch(array, (array + LIMIT - 1), SEARCH));
+
 
     	auto end = std::chrono::steady_clock::now();
     	std::cout << ">>> ENDING computation <<<\n";
