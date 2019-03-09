@@ -2,18 +2,18 @@
 
 const long * bsearch(const long *first, const long *last, long value)
 {
-	auto distance = std::distance(first, last); /* Current length */
+	auto distance = std::distance(first, last); // Current length
 
 	while (distance > 0) {
-		auto offset = distance / 2; // Determine the mid element of the range
-		auto m = first + offset; // Mid element pointer
+		auto offset = distance / 2;	    // Determine the mid element of the range
+		auto m = first + offset; 	    // Mid element pointer
 
 		if (value == *m) {
 			return m;
-		} else if (value > *m) { // If the element is on the right
-			distance -= offset + 1; // Determines the range for one element after mid 
-			first = ++m; // Determines the first element for one element after mid
-		} else if (value < *m) { // If the element is on the left
+		} else if (value > *m) {            // If the element is on the right
+			distance -= offset + 1;     // Determines the range for one element after mid 
+			first = ++m; 		    // Determines the first element for one element after mid
+		} else if (value < *m) { 	    // If the element is on the left
 			distance = offset; 
 		}
 	}
