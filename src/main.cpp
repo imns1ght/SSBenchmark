@@ -7,11 +7,11 @@
 
 #include "../include/linear-search.h"
 #include "../include/binary-search.h"
+#include "../include/ternary-search.h"
 #include <chrono>     
-#include <iomanip>      // std::setprecision
-
 
 #define LIMIT 500000000
+#define SEARCH 2500
 
 using namespace std::chrono; 
 
@@ -26,6 +26,7 @@ int main(void) {
     	auto start = std::chrono::steady_clock::now();
 
 	auto result = const_cast <long *>(bsearch(array, (array + LIMIT - 1), LIMIT));
+	// auto result = const_cast <long *>(tsearch(array, (array + LIMIT - 1), SEARCH));
 
     	auto end = std::chrono::steady_clock::now();
     	std::cout << ">>> ENDING computation <<<\n";
