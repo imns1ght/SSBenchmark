@@ -14,7 +14,7 @@ const long *tsearch(const long *first, const long *last, long value){
                 } else if (value == *second3rd) { // If the element is the 2st3rd part
                         return second3rd;
 
-		} else if (value < *second3rd && value > *first3rd) { // If the element is betwenn 1st3rd part and 2nd3rd part
+		} else if ((value < *second3rd) && (value > *first3rd)) { // If the element is betwenn 1st3rd part and 2nd3rd part
                         first = first3rd; 
                         last = second3rd;
 			distance = std::distance(first, last);

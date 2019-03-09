@@ -1,8 +1,10 @@
-#ifdef JUMP_SEARCH_H
+#ifndef JUMP_SEARCH_H
 #define JUMP_SEARCH_H
 
 #include <iostream>  // cout, endl
 #include <iterator>  // ostream_iterator, begin(), end(), distance()
+
+using namespace std;
 
 /// Implements jump search on an array of long integers.
 /*!
@@ -11,8 +13,6 @@
  * \param value The target value we are looking for within the range.
  * \return A pointer to the target value within the range; or last, in case the value is not in the range.
  */
-
-const long int *jumpsearch(const int *first, const int *last, int value);
-
+const long *jsearch(const long *first, const long *last, long value);
 
 #endif

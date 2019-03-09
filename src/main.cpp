@@ -8,6 +8,7 @@
 #include "../include/linear-search.h"
 #include "../include/binary-search.h"
 #include "../include/ternary-search.h"
+#include "../include/jump-search.h"
 #include <chrono>     
 
 #define LIMIT 500000000
@@ -25,9 +26,11 @@ int main(void) {
 	std::cout << ">>> STARTING computation <<<\n";
     	auto start = std::chrono::steady_clock::now();
 
+	//auto result = const_cast <long *>(lsearch(array, (array + LIMIT - 1), SEARCH));
 	//auto result = const_cast <long *>(bsearch(array, (array + LIMIT - 1), SEARCH));
-	auto result = const_cast <long *>(bsearch_recursive(array, (array + LIMIT - 1), SEARCH));
-	// auto result = const_cast <long *>(tsearch(array, (array + LIMIT - 1), SEARCH));
+	//auto result = const_cast <long *>(bsearch_recursive(array, (array + LIMIT - 1), SEARCH));
+	//auto result = const_cast <long *>(tsearch(array, (array + LIMIT - 1), SEARCH));
+	auto result = const_cast <long *>(jsearch(array, (array + LIMIT - 1), SEARCH));
 
     	auto end = std::chrono::steady_clock::now();
     	std::cout << ">>> ENDING computation <<<\n";
