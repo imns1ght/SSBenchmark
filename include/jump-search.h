@@ -1,8 +1,9 @@
 #ifndef JUMP_SEARCH_H
 #define JUMP_SEARCH_H
 
-#include <iostream>  // cout, endl
-#include <iterator>  // ostream_iterator, begin(), end(), distance()
+#include <iostream>  	// cout, endl
+#include <iterator>  	// ostream_iterator, begin(), end(), distance()
+#include <cmath>	// sqrt()
 
 using namespace std;
 

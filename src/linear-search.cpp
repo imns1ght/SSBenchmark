@@ -8,5 +8,5 @@ const long * lsearch(const long *first, const long *last, long value) {
 		first++;
 	}
 
-	return last;
+	return NULL;
 }
