@@ -8,10 +8,6 @@
 #include "../include/fill-array.h"
 #include "../include/call-search.h"
 #include "../include/print-duration.h"
-#include "../include/linear-search.h"
-#include "../include/binary-search.h"
-#include "../include/ternary-search.h"
-#include "../include/jump-search.h" 
 
 int main(void) {	
 	long size;			// Size of array
