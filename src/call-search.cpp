@@ -30,7 +30,7 @@ long * callSearch(long *first, long *last, long searchValue, int choice) {
 			break;
 
 		case 7:
-			result = const_cast <long *>(jsearch(first, last, searchValue));
+			result = const_cast <long *>(fibsearch(first, last, searchValue));
 			break;
 	}
 

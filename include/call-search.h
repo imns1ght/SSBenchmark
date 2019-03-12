@@ -4,7 +4,8 @@
 #include "../include/linear-search.h"
 #include "../include/binary-search.h"
 #include "../include/ternary-search.h"
-#include "../include/jump-search.h" 
+#include "../include/jump-search.h"
+#include "../include/fibonacci-search.h"
 
 /// Call the search function from choice of the user
 /*!

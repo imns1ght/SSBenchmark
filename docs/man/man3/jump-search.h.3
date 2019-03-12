@@ -1,0 +1,50 @@
+.TH "include/jump-search.h" 3 "Sun Mar 10 2019" "Version 1.0" "Algorithms Analysis" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+include/jump-search.h
+.SH SYNOPSIS
+.br
+.PP
+\fC#include <iostream>\fP
+.br
+\fC#include <iterator>\fP
+.br
+\fC#include <cmath>\fP
+.br
+
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "const long * \fBjsearch\fP (const long *first, const long *last, long value)"
+.br
+.RI "Implements jump search on an array of long integers\&. "
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "const long* jsearch (const long * first, const long * last, long value)"
+
+.PP
+Implements jump search on an array of long integers\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIfirst\fP Pointer to the first element in the range\&. 
+.br
+\fIlast\fP Pointer to the last element in the range\&. 
+.br
+\fIvalue\fP The target value we are looking for within the range\&. 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+A pointer to the target value within the range; or last, in case the value is not in the range\&. 
+.RE
+.PP
+
+.PP
+Definition at line 3 of file jump\-search\&.cpp\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Algorithms Analysis from the source code\&.
