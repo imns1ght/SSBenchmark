@@ -11,6 +11,6 @@ using namespace std;
  * \param array Pointer to the array.
  * \param size Size of the array.
  */
-void fillArray(long * array, long size);
+void fillArray(long * array, long beginRange, int size);
 
 #endif

@@ -1,7 +1,7 @@
 #include "../include/print-duration.h"
 
 void printDuration(std::chrono::nanoseconds diff) {
-	// Seconds
+		// Seconds
     	auto diff_sec = std::chrono::duration_cast<std::chrono::seconds>(diff);
     	std::cout << "\t\033[1;35m>>>\033[0m " << diff_sec.count() << " sec" << std::endl;
 
