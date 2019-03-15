@@ -1,3 +1,8 @@
+/*!
+ * \file print-duration.cpp
+ * \brief Print the search duration time
+ */
+
 #include "../include/print-duration.h"
 
 void printDuration(std::chrono::nanoseconds diff) {

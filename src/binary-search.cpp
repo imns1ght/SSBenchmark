@@ -1,3 +1,7 @@
+/*!
+ * \file binary-search.cpp
+ * \brief Implements the binary search
+ */
 #include "../include/binary-search.h"
 
 const long * bsearch(const long *first, const long *last, long value) {

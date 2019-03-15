@@ -1,6 +1,5 @@
 /*!
  * \file main.cpp
- * \brief TODO
  * \author Jefferson Bruno, Ranieri Santos
  * \date 16/03/2019
  */

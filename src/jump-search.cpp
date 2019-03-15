@@ -1,3 +1,8 @@
+/*!
+ * \file jump-search.cpp
+ * \brief Implements the jump search
+ */
+
 #include "../include/jump-search.h"
 
 const long * jsearch(const long *first, const long *last, long value) {

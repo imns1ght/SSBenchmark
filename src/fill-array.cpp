@@ -1,3 +1,8 @@
+/*!
+ * \file fill-array.cpp
+ * \brief Fill the array for the search
+ */
+
 #include "../include/fill-array.h"
 	
 void fillArray(long * array, long beginRange, int size) {

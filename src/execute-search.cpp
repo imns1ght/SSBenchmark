@@ -1,3 +1,8 @@
+/*!
+ * \file execute-search.cpp
+ * \brief Performs searches
+ */
+
 #include "../include/execute-search.h"
 
 void executeSearch(std::ostringstream &header, std::ostringstream &numbers, long *first, 

@@ -1,0 +1,86 @@
+\hypertarget{execute-search_8cpp}{}\section{src/execute-\/search.cpp File Reference}
+\label{execute-search_8cpp}\index{src/execute-\/search.cpp@{src/execute-\/search.cpp}}
+
+
+Performs searches.  
+
+
+{\ttfamily \#include \char`\"{}../include/execute-\/search.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{execute-search_8cpp_add6898191acaf3cbf729012cc3b95afa}{execute\+Search}} (std\+::ostringstream \&header, std\+::ostringstream \&numbers, long $\ast$first, long begin\+Range, long search\+Value, int choice, int samplesN, long array\+Size)
+\begin{DoxyCompactList}\small\item\em Performs searches with n samples. \end{DoxyCompactList}\item 
+std\+::chrono\+::nanoseconds \mbox{\hyperlink{execute-search_8cpp_a42e66a1ddcf8869c50fde7c7f7599a77}{calculate\+Average}} (long $\ast$first, long begin\+Range, long search\+Value, long sample\+Size, int choice)
+\begin{DoxyCompactList}\small\item\em Performs 100 searches with the sample and calculates the average. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Performs searches. 
+
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{execute-search_8cpp_a42e66a1ddcf8869c50fde7c7f7599a77}\label{execute-search_8cpp_a42e66a1ddcf8869c50fde7c7f7599a77}} 
+\index{execute-\/search.cpp@{execute-\/search.cpp}!calculateAverage@{calculateAverage}}
+\index{calculateAverage@{calculateAverage}!execute-\/search.cpp@{execute-\/search.cpp}}
+\subsubsection{\texorpdfstring{calculateAverage()}{calculateAverage()}}
+{\footnotesize\ttfamily std\+::chrono\+::nanoseconds calculate\+Average (\begin{DoxyParamCaption}\item[{long $\ast$}]{first,  }\item[{long}]{begin\+Range,  }\item[{long}]{search\+Value,  }\item[{long}]{sample\+Size,  }\item[{int}]{choice }\end{DoxyParamCaption})}
+
+
+
+Performs 100 searches with the sample and calculates the average. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em first} & Pointer to the first element in the range. \\
+\hline
+{\em begin\+Range} & Begin of the range. \\
+\hline
+{\em search\+Value} & The target value we are looking for within the range. \\
+\hline
+{\em sample\+Size} & Size of the sample. \\
+\hline
+{\em choice} & Search we want to perform. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The average of 100 searches with sample of n size. 
+\end{DoxyReturn}
+
+
+Definition at line 40 of file execute-\/search.\+cpp.
+
+\mbox{\Hypertarget{execute-search_8cpp_add6898191acaf3cbf729012cc3b95afa}\label{execute-search_8cpp_add6898191acaf3cbf729012cc3b95afa}} 
+\index{execute-\/search.cpp@{execute-\/search.cpp}!executeSearch@{executeSearch}}
+\index{executeSearch@{executeSearch}!execute-\/search.cpp@{execute-\/search.cpp}}
+\subsubsection{\texorpdfstring{executeSearch()}{executeSearch()}}
+{\footnotesize\ttfamily void execute\+Search (\begin{DoxyParamCaption}\item[{std\+::ostringstream \&}]{header,  }\item[{std\+::ostringstream \&}]{numbers,  }\item[{long $\ast$}]{first,  }\item[{long}]{begin\+Range,  }\item[{long}]{search\+Value,  }\item[{int}]{choice,  }\item[{int}]{samplesN,  }\item[{long}]{array\+Size }\end{DoxyParamCaption})}
+
+
+
+Performs searches with n samples. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em header} & Stream associated with the header of the output file. \\
+\hline
+{\em numbers} & Stream associated with the data of the output file. \\
+\hline
+{\em first} & Pointer to the first element in the range. \\
+\hline
+{\em begin\+Range} & Begin of the range. \\
+\hline
+{\em search\+Value} & The target value we are looking for within the range. \\
+\hline
+{\em choice} & Search we want to perform. \\
+\hline
+{\em samplesN} & Number of samples \\
+\hline
+{\em array\+Size} & Size of the array \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 8 of file execute-\/search.\+cpp.
+

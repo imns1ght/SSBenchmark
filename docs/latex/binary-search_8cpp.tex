@@ -1,0 +1,75 @@
+\hypertarget{binary-search_8cpp}{}\section{src/binary-\/search.cpp File Reference}
+\label{binary-search_8cpp}\index{src/binary-\/search.cpp@{src/binary-\/search.cpp}}
+
+
+Implements the binary search.  
+
+
+{\ttfamily \#include \char`\"{}../include/binary-\/search.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+const long $\ast$ \mbox{\hyperlink{binary-search_8cpp_a20826c3f30778820b4c09cc75c30bfab}{bsearch}} (const long $\ast$first, const long $\ast$last, long value)
+\begin{DoxyCompactList}\small\item\em Implements an interative binary search on an array of long integers. \end{DoxyCompactList}\item 
+const long $\ast$ \mbox{\hyperlink{binary-search_8cpp_a9d68880223de2f3819bffee36f8486a5}{bsearch\+\_\+recursive}} (const long $\ast$first, const long $\ast$last, long value)
+\begin{DoxyCompactList}\small\item\em Implements an recursive binary search on an array of long integers. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Implements the binary search. 
+
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{binary-search_8cpp_a20826c3f30778820b4c09cc75c30bfab}\label{binary-search_8cpp_a20826c3f30778820b4c09cc75c30bfab}} 
+\index{binary-\/search.cpp@{binary-\/search.cpp}!bsearch@{bsearch}}
+\index{bsearch@{bsearch}!binary-\/search.cpp@{binary-\/search.cpp}}
+\subsubsection{\texorpdfstring{bsearch()}{bsearch()}}
+{\footnotesize\ttfamily const long$\ast$ bsearch (\begin{DoxyParamCaption}\item[{const long $\ast$}]{first,  }\item[{const long $\ast$}]{last,  }\item[{long}]{value }\end{DoxyParamCaption})}
+
+
+
+Implements an interative binary search on an array of long integers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em first} & Pointer to the first element in the range. \\
+\hline
+{\em last} & Pointer to the last element in the range. \\
+\hline
+{\em value} & The target value we are looking for within the range. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A pointer to the target value within the range; or N\+U\+LL, in case the value is not in the range. 
+\end{DoxyReturn}
+
+
+Definition at line 7 of file binary-\/search.\+cpp.
+
+\mbox{\Hypertarget{binary-search_8cpp_a9d68880223de2f3819bffee36f8486a5}\label{binary-search_8cpp_a9d68880223de2f3819bffee36f8486a5}} 
+\index{binary-\/search.cpp@{binary-\/search.cpp}!bsearch\_recursive@{bsearch\_recursive}}
+\index{bsearch\_recursive@{bsearch\_recursive}!binary-\/search.cpp@{binary-\/search.cpp}}
+\subsubsection{\texorpdfstring{bsearch\_recursive()}{bsearch\_recursive()}}
+{\footnotesize\ttfamily const long$\ast$ bsearch\+\_\+recursive (\begin{DoxyParamCaption}\item[{const long $\ast$}]{first,  }\item[{const long $\ast$}]{last,  }\item[{long}]{value }\end{DoxyParamCaption})}
+
+
+
+Implements an recursive binary search on an array of long integers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em first} & Pointer to the first element in the range. \\
+\hline
+{\em last} & Pointer to the last element in the range. \\
+\hline
+{\em value} & The target value we are looking for within the range. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A pointer to the target value within the range; or N\+U\+LL, in case the value is not in the range. 
+\end{DoxyReturn}
+
+
+Definition at line 27 of file binary-\/search.\+cpp.
+

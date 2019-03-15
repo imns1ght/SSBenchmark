@@ -1,3 +1,8 @@
+/*!
+ * \file read-input.cpp
+ * \brief Read the input from the user
+ */
+
 #include "../include/read-input.h"
 
 long readInput(long &beginRange, long &endRange, long &searchValue, int &samplesN, int &choice) {

@@ -1,0 +1,39 @@
+\hypertarget{fibonacci-search_8h}{}\section{include/fibonacci-\/search.h File Reference}
+\label{fibonacci-search_8h}\index{include/fibonacci-\/search.h@{include/fibonacci-\/search.h}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$iterator$>$}\newline
+{\ttfamily \#include $<$algorithm$>$}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+const long $\ast$ \mbox{\hyperlink{fibonacci-search_8h_aca1f23be8dba691c46dcacb5df55ccea}{fibsearch}} (const long $\ast$first, const long $\ast$last, long value)
+\begin{DoxyCompactList}\small\item\em Implements an Fibonacci search on an range \mbox{[}first; last) of long integers. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{fibonacci-search_8h_aca1f23be8dba691c46dcacb5df55ccea}\label{fibonacci-search_8h_aca1f23be8dba691c46dcacb5df55ccea}} 
+\index{fibonacci-\/search.h@{fibonacci-\/search.h}!fibsearch@{fibsearch}}
+\index{fibsearch@{fibsearch}!fibonacci-\/search.h@{fibonacci-\/search.h}}
+\subsubsection{\texorpdfstring{fibsearch()}{fibsearch()}}
+{\footnotesize\ttfamily const long$\ast$ fibsearch (\begin{DoxyParamCaption}\item[{const long $\ast$}]{first,  }\item[{const long $\ast$}]{last,  }\item[{long}]{value }\end{DoxyParamCaption})}
+
+
+
+Implements an Fibonacci search on an range \mbox{[}first; last) of long integers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em first} & Pointer to the first element in the range. \\
+\hline
+{\em last} & Pointer past the last valid element in the range. \\
+\hline
+{\em value} & The target value we are looking for within the range. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A pointer to the target value within the range; or N\+U\+LL, in case the value is not in the range. 
+\end{DoxyReturn}
+
+
+Definition at line 8 of file fibonacci-\/search.\+cpp.
+

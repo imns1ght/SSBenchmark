@@ -1,3 +1,8 @@
+/*!
+ * \file ternary-search.cpp
+ * \brief Implements the ternary search
+ */
+
 #include "../include/ternary-search.h"
 
 const long *tsearch(const long *first, const long *last, long value){

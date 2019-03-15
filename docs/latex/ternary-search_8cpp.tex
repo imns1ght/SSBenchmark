@@ -1,0 +1,75 @@
+\hypertarget{ternary-search_8cpp}{}\section{src/ternary-\/search.cpp File Reference}
+\label{ternary-search_8cpp}\index{src/ternary-\/search.cpp@{src/ternary-\/search.cpp}}
+
+
+Implements the ternary search.  
+
+
+{\ttfamily \#include \char`\"{}../include/ternary-\/search.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+const long $\ast$ \mbox{\hyperlink{ternary-search_8cpp_a5d1e6d2319a9d23db3a04557e0811c81}{tsearch}} (const long $\ast$first, const long $\ast$last, long value)
+\begin{DoxyCompactList}\small\item\em Implements an interative ternary search on an array of long integers. \end{DoxyCompactList}\item 
+const long $\ast$ \mbox{\hyperlink{ternary-search_8cpp_a3c64aebf53564a9b55057f719360e70c}{tsearch\+\_\+recursive}} (const long $\ast$first, const long $\ast$last, long value)
+\begin{DoxyCompactList}\small\item\em Implements an recursive ternary search on an array of long integers. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Implements the ternary search. 
+
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{ternary-search_8cpp_a5d1e6d2319a9d23db3a04557e0811c81}\label{ternary-search_8cpp_a5d1e6d2319a9d23db3a04557e0811c81}} 
+\index{ternary-\/search.cpp@{ternary-\/search.cpp}!tsearch@{tsearch}}
+\index{tsearch@{tsearch}!ternary-\/search.cpp@{ternary-\/search.cpp}}
+\subsubsection{\texorpdfstring{tsearch()}{tsearch()}}
+{\footnotesize\ttfamily const long$\ast$ tsearch (\begin{DoxyParamCaption}\item[{const long $\ast$}]{first,  }\item[{const long $\ast$}]{last,  }\item[{long}]{value }\end{DoxyParamCaption})}
+
+
+
+Implements an interative ternary search on an array of long integers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em first} & Pointer to the first element in the range. \\
+\hline
+{\em last} & Pointer to the last element in the range. \\
+\hline
+{\em value} & The target value we are looking for within the range. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A pointer to the target value within the range; or N\+U\+LL, in case the value is not in the range. 
+\end{DoxyReturn}
+
+
+Definition at line 8 of file ternary-\/search.\+cpp.
+
+\mbox{\Hypertarget{ternary-search_8cpp_a3c64aebf53564a9b55057f719360e70c}\label{ternary-search_8cpp_a3c64aebf53564a9b55057f719360e70c}} 
+\index{ternary-\/search.cpp@{ternary-\/search.cpp}!tsearch\_recursive@{tsearch\_recursive}}
+\index{tsearch\_recursive@{tsearch\_recursive}!ternary-\/search.cpp@{ternary-\/search.cpp}}
+\subsubsection{\texorpdfstring{tsearch\_recursive()}{tsearch\_recursive()}}
+{\footnotesize\ttfamily const long$\ast$ tsearch\+\_\+recursive (\begin{DoxyParamCaption}\item[{const long $\ast$}]{first,  }\item[{const long $\ast$}]{last,  }\item[{long}]{value }\end{DoxyParamCaption})}
+
+
+
+Implements an recursive ternary search on an array of long integers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em first} & Pointer to the first element in the range. \\
+\hline
+{\em last} & Pointer to the last element in the range. \\
+\hline
+{\em value} & The target value we are looking for within the range. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A pointer to the target value within the range; or N\+U\+LL, in case the value is not in the range. 
+\end{DoxyReturn}
+
+
+Definition at line 42 of file ternary-\/search.\+cpp.
+

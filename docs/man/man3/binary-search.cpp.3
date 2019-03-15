@@ -1,0 +1,80 @@
+.TH "src/binary-search.cpp" 3 "Fri Mar 15 2019" "Version 0.1" "Search Algorithms Analysis" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+src/binary-search.cpp \- Implements the binary search\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+\fC#include '\&.\&./include/binary\-search\&.h'\fP
+.br
+
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "const long * \fBbsearch\fP (const long *first, const long *last, long value)"
+.br
+.RI "Implements an interative binary search on an array of long integers\&. "
+.ti -1c
+.RI "const long * \fBbsearch_recursive\fP (const long *first, const long *last, long value)"
+.br
+.RI "Implements an recursive binary search on an array of long integers\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Implements the binary search\&. 
+
+
+.PP
+Definition in file \fBbinary\-search\&.cpp\fP\&.
+.SH "Function Documentation"
+.PP 
+.SS "const long* bsearch (const long * first, const long * last, long value)"
+
+.PP
+Implements an interative binary search on an array of long integers\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIfirst\fP Pointer to the first element in the range\&. 
+.br
+\fIlast\fP Pointer to the last element in the range\&. 
+.br
+\fIvalue\fP The target value we are looking for within the range\&. 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+A pointer to the target value within the range; or NULL, in case the value is not in the range\&. 
+.RE
+.PP
+
+.PP
+Definition at line 7 of file binary\-search\&.cpp\&.
+.SS "const long* bsearch_recursive (const long * first, const long * last, long value)"
+
+.PP
+Implements an recursive binary search on an array of long integers\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIfirst\fP Pointer to the first element in the range\&. 
+.br
+\fIlast\fP Pointer to the last element in the range\&. 
+.br
+\fIvalue\fP The target value we are looking for within the range\&. 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+A pointer to the target value within the range; or NULL, in case the value is not in the range\&. 
+.RE
+.PP
+
+.PP
+Definition at line 27 of file binary\-search\&.cpp\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Search Algorithms Analysis from the source code\&.

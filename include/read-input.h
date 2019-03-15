@@ -1,4 +1,4 @@
-#ifndef READ_INPUT_h
+#ifndef READ_INPUT_H
 #define READ_INPUT_H
 
 #include <iostream>

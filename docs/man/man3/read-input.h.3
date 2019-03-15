@@ -1,0 +1,50 @@
+.TH "include/read-input.h" 3 "Fri Mar 15 2019" "Version 0.1" "Search Algorithms Analysis" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+include/read-input.h
+.SH SYNOPSIS
+.br
+.PP
+\fC#include <iostream>\fP
+.br
+
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "long \fBreadInput\fP (long &beginRange, long &endRange, long &searchValue, int &samplesN, int &choice)"
+.br
+.RI "Reads the range, search value, number of samples and the search we want to perform\&. "
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "long readInput (long & beginRange, long & endRange, long & searchValue, int & samplesN, int & choice)"
+
+.PP
+Reads the range, search value, number of samples and the search we want to perform\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIbeginRange\fP Begin of the array\&. 
+.br
+\fIendRange\fP End of the array\&. 
+.br
+\fIsearchValue\fP The value we are looking for within the range\&. 
+.br
+\fIsamplesN\fP Number of samples\&. 
+.br
+\fIchoice\fP The search we want to perform\&. 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+The array size (endRange - beginRange)\&. 
+.RE
+.PP
+
+.PP
+Definition at line 8 of file read\-input\&.cpp\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Search Algorithms Analysis from the source code\&.

@@ -1,3 +1,8 @@
+/*!
+ * \file call-search.cpp
+ * \brief Call the search function from choice of the user
+ */
+
 #include "../include/call-search.h"
 
 long * callSearch(long *first, long *last, long searchValue, int choice) {

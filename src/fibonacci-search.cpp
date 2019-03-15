@@ -1,3 +1,8 @@
+/*!
+ * \file fibonacci-search.cpp
+ * \brief Implements the fibonacci search
+ */
+
 #include "../include/fibonacci-search.h"
 
 const long *fibsearch(const long *first, const long *last, long value){

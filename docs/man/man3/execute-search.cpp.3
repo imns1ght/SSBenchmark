@@ -1,0 +1,89 @@
+.TH "src/execute-search.cpp" 3 "Fri Mar 15 2019" "Version 0.1" "Search Algorithms Analysis" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+src/execute-search.cpp \- Performs searches\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+\fC#include '\&.\&./include/execute\-search\&.h'\fP
+.br
+
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBexecuteSearch\fP (std::ostringstream &header, std::ostringstream &numbers, long *first, long beginRange, long searchValue, int choice, int samplesN, long arraySize)"
+.br
+.RI "Performs searches with n samples\&. "
+.ti -1c
+.RI "std::chrono::nanoseconds \fBcalculateAverage\fP (long *first, long beginRange, long searchValue, long sampleSize, int choice)"
+.br
+.RI "Performs 100 searches with the sample and calculates the average\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Performs searches\&. 
+
+
+.PP
+Definition in file \fBexecute\-search\&.cpp\fP\&.
+.SH "Function Documentation"
+.PP 
+.SS "std::chrono::nanoseconds calculateAverage (long * first, long beginRange, long searchValue, long sampleSize, int choice)"
+
+.PP
+Performs 100 searches with the sample and calculates the average\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIfirst\fP Pointer to the first element in the range\&. 
+.br
+\fIbeginRange\fP Begin of the range\&. 
+.br
+\fIsearchValue\fP The target value we are looking for within the range\&. 
+.br
+\fIsampleSize\fP Size of the sample\&. 
+.br
+\fIchoice\fP Search we want to perform\&. 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+The average of 100 searches with sample of n size\&. 
+.RE
+.PP
+
+.PP
+Definition at line 40 of file execute\-search\&.cpp\&.
+.SS "void executeSearch (std::ostringstream & header, std::ostringstream & numbers, long * first, long beginRange, long searchValue, int choice, int samplesN, long arraySize)"
+
+.PP
+Performs searches with n samples\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIheader\fP Stream associated with the header of the output file\&. 
+.br
+\fInumbers\fP Stream associated with the data of the output file\&. 
+.br
+\fIfirst\fP Pointer to the first element in the range\&. 
+.br
+\fIbeginRange\fP Begin of the range\&. 
+.br
+\fIsearchValue\fP The target value we are looking for within the range\&. 
+.br
+\fIchoice\fP Search we want to perform\&. 
+.br
+\fIsamplesN\fP Number of samples 
+.br
+\fIarraySize\fP Size of the array 
+.RE
+.PP
+
+.PP
+Definition at line 8 of file execute\-search\&.cpp\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Search Algorithms Analysis from the source code\&.
