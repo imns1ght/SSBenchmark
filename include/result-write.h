@@ -7,6 +7,4 @@
 #include <sstream>  // ostringstream
 #include <string>   // std::string
 
-using namespace std;
-
 #endif

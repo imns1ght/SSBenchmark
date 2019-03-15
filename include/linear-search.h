@@ -4,8 +4,6 @@
 #include <iostream>  // cout, endl
 #include <iterator>  // ostream_iterator, begin(), end(), distance()
 
-using namespace std;
-
 /// Implements an iterative linear search on an range [first; last) of long integers.
 /*!
  * \param first Pointer to the first element in the range.

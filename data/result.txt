@@ -1,2 +1,0 @@
-During time (ms)	Sample Size
-71922.610971		500000000

@@ -4,8 +4,6 @@
 #include <iostream>  	// cout, endl
 #include <iterator>  	// ostream_iterator, begin(), end(), distance()
 
-using namespace std;
-
 /// Fill the array for the search
 /*!
  * \param array Pointer to the array.

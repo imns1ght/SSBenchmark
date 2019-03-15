@@ -5,8 +5,6 @@
 #include <iterator>  	// ostream_iterator, begin(), end(), distance()
 #include <cmath>	// sqrt()
 
-using namespace std;
-
 /// Implements jump search on an array of long integers.
 /*!
  * \param first Pointer to the first element in the range.
