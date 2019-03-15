@@ -16,7 +16,7 @@ Output file
 * [Make](https://www.gnu.org/software/make/)
 
 ## Compiling
-You can use the Makefile, just enter in your terminal:
+You can use the Makefile. In the root directory of the project, enter:
 
 ```bash
 make
