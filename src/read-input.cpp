@@ -15,7 +15,7 @@ long readInput(long &beginRange, long &endRange, long &searchValue, int &samples
 	std::cin >> searchValue;
 
 	do {
-		std::cout << "\033[1;35m>>>\033[0m Number of samples to test: ";
+		std::cout << "\033[1;35m>>>\033[0m Number of samples: ";
 		std::cin >> samplesN;
 	} while (samplesN > endRange);
 	

@@ -12,7 +12,7 @@ void executeSearch(std::ostringstream &header, std::ostringstream &numbers, long
 	auto sampleRemainder = arraySize % samplesN;	// If remainder exists, save to increment each sample.
 	auto sampleSize = sampleIncrement;		// Size of the samples
 
-	header << "During time (ms)" << "\t" << "Sample Size";
+	header << "During time (ms)" << "\t" << "Sample size";
 	// Performs searches while n samples are not reached
 	for (int i = 0; i < samplesN; i++) {
 		std::cout << "\033[1;35m>>>\033[0m SAMPLE [" << i+1 << "] [" 
