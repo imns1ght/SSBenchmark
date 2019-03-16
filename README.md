@@ -10,7 +10,7 @@ Output file
 
 ![example_2](data/example_2.png "Output file")
 
-## Requiriments
+## Requirements
 * C++
 * GCC/G++
 * [chrono](http://www.cplusplus.com/reference/chrono/)
