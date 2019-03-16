@@ -13,6 +13,13 @@ Output file
 ## Requiriments
 * C++
 * GCC/G++
+* [chrono](http://www.cplusplus.com/reference/chrono/)
+* [iterator](http://www.cplusplus.com/reference/iterator/)
+* [cmath](http://www.cplusplus.com/reference/cmath/)
+* [iomanip](http://www.cplusplus.com/reference/iomanip/)
+* [fstream](http://www.cplusplus.com/reference/fstream/)
+* [sstream](http://www.cplusplus.com/reference/sstream/)
+* [string](http://www.cplusplus.com/reference/string/string/?kw=string)
 * [Make](https://www.gnu.org/software/make/)
 
 ## Compiling
