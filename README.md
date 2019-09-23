@@ -10,6 +10,11 @@ Output file
 
 ![example_2](data/example_2.png "Output file")
 
+## TODO
+
+- [ ] Review this old code
+- [ ] Add sorting functions (and write a new version)
+
 ## Requirements
 * C++
 * GCC/G++
